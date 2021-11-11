@@ -9,8 +9,8 @@ import (
 
 func main() {
 
-	OAUTH_TOKEN := "xoxb-2713581772178-2715856982820-GeS4gUBsPTeE9b483QOgrJwk	" // Paste your bot user token here
-	CHANNEL_ID := "C02LZHR5Y83"                                                 // Paste your channel id here
+	OAUTH_TOKEN := "OAUTH_TOKEN" // Paste your bot user token here
+	CHANNEL_ID := "CHANNEL_ID"   // Paste your channel id here
 
 	api := slack.New(OAUTH_TOKEN)
 	attachment := slack.Attachment{
